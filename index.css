@@ -405,7 +405,7 @@ body:not(.user-is-tabbing) a:focus {
 
 .header {
     background: linear-gradient(rgba(0,0,0, .1), rgba(0,0,0, .4)), 
-        url('images/20230326_112801.jpg');
+        url('images/pexels-daniel-putzer-633409.jpg');
     height: 100vh;
     background-size: cover;
     background-position: center;
@@ -611,3 +611,18 @@ body:not(.user-is-tabbing) a:focus {
         padding: var(--gutter-medium) 0;
     } 
 }
+
+
+/* my slide in animation codes */
+.box {
+    transform: translateX(200%);
+    transition: transform 0.2s ease;
+}
+
+.box:nth-of-type(even){
+    transform: translateX(-200%);
+  }
+
+  .box.show {
+    transform: translateX(0);
+  }
