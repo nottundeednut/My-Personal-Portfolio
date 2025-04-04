@@ -612,7 +612,7 @@ body:not(.user-is-tabbing) a:focus {
 }
 
 /* my slide in animation codes */
-.box {
+/* .box {
   transform: translateX(400%);
   transition: transform 0.2s ease;
 }
@@ -623,7 +623,7 @@ body:not(.user-is-tabbing) a:focus {
 
 .box.show {
   transform: translateX(0);
-}
+} */
 
 /*overflow fixes*/
 .container {
